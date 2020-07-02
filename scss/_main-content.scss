@@ -1,0 +1,31 @@
+.main-content {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    padding: 10px 50px;
+  }
+
+  &__img {
+    vertical-align: top;
+    margin-right: 28px;
+    width: 50%;
+    max-width: 550px;
+  }
+  &__container {
+    width: 50%;
+  }
+  &__title {
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  &__summary {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    color: $color-2022-4;
+    text-align: center;
+  }
+}

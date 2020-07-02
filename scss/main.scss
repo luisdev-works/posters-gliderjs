@@ -1,0 +1,19 @@
+@import 'config';
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: $color-2022-2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+@import 'main-content';
+@import 'carousel';
+@import 'media';

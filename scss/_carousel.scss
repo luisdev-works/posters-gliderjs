@@ -1,0 +1,60 @@
+.carousel {
+  &__container {
+    position: relative;
+  }
+  &__previous {
+    left: -30px;
+  }
+  &__next {
+    right: -30px;
+  }
+  &__next,
+  &__previous {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(40%);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: $color-2022-1;
+    opacity: 100%;
+    &:hover {
+      opacity: 100%;
+    }
+  }
+  &__list {
+    overflow: hidden;
+    &.glider {
+      img {
+        height: 180px;
+        width: 150px;
+      }
+    }
+  }
+  &__element {
+    text-align: center;
+    img {
+      width: 300px;
+      height: 260px;
+      padding-bottom: 10px;
+    }
+  }
+  &__indicators {
+    &.glider-dots {
+      padding: 10px;
+    }
+    .glider-dot {
+      &.active {
+        background: $color-2022-1;
+      }
+      background: $color-2022-4;
+      &:hover {
+        color: $color-2022-1;
+      }
+    }
+  }
+}

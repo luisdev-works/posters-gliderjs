@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .main-content {
+    img {
+      padding: 0;
+    }
+    flex-direction: column;
+    padding: 30px;
+    & > * {
+      width: 65%;
+    }
+  }
+}
